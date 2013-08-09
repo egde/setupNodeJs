@@ -1,5 +1,7 @@
 #!/bin/sh
 
+mv dotfiles $HOME
+
 # activate the dotfiles
 ln -sb dotfiles/.bash_profile $HOME
 ln -sb dotfiles/.bashrc $HOME
