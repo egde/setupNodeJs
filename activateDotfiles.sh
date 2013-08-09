@@ -1,6 +1,6 @@
 #!/bin/sh
 
-cp ./dotfiles $HOME
+cp -dr ./dotfiles $HOME
 
 # activate the dotfiles
 ln -sb dotfiles/.bash_profile $HOME
