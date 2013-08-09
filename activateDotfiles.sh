@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # activate the dotfiles
-ln -sb dotfiles/.bash_profile .
-ln -sb dotfiles/.bashrc .
-ln -sb dotfiles/.bashrc_custom .
-ln -sb dotfiles/.vimrc .
+ln -sb dotfiles/.bash_profile $HOME
+ln -sb dotfiles/.bashrc $HOME
+ln -sb dotfiles/.bashrc_custom $HOME
+ln -sb dotfiles/.vimrc $HOME
